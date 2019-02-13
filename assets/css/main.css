@@ -34,7 +34,7 @@ a, a:hover{
 	color: #666666;
 }
 .clr-sec{
-	color:  #EA244F
+	color:  #EA244F !important
 }
 .font-18{
 	font-size: 18px;
@@ -61,7 +61,7 @@ a, a:hover{
 	padding: 0 !important;
 }
 .box-port{
-	margin-top: 50px;
+	margin-top: 40px;
 }
 .main-card-portfolio{
 	padding-right: 35px !important;
@@ -110,4 +110,19 @@ a:hover .card-title{
 .next-prev{
 	padding-top: 50px !important;
 	padding-bottom: 30px !important; 
+}
+.serv-title{
+	padding-top: 15px;
+	padding-bottom: 15px
+}
+.services ul li{
+	list-style: none;
+}
+.main-card-team{
+	padding-right: 50px !important;
+	padding-top: 50px !important;
+}
+.box-img-team{
+	height: 370px;
+	overflow: hidden;
 }
