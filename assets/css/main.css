@@ -1,0 +1,113 @@
+.slice{
+	padding-left: 125px;
+}
+#jumbotron{
+
+	height:668px;
+	background: url(../img/jumbotron.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body, html{
+	color: black;
+}
+a, a:hover{
+	text-decoration: none;
+	color: black;
+}
+.navbar-left{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 110px;
+	height: 100%;
+}
+.navbar-left ul{
+	padding:10px 0
+}
+.navbar-left ul li{
+	list-style: none;
+	transform: rotate(270deg);
+	padding: 50px 0
+}
+.clr-grey{
+	color: #666666;
+}
+.clr-sec{
+	color:  #EA244F
+}
+.font-18{
+	font-size: 18px;
+}
+.font-20{
+	font-size: 20px;
+}
+.font-21{
+	font-size: 21px;
+}
+.font-24{
+	font-size: 24px;
+}
+.font-28{
+	font-size: 28px;
+}
+.font-36{
+	font-size: 36px;
+}
+.font-42{
+	font-size: 42px;
+}
+.no-padding{
+	padding: 0 !important;
+}
+.box-port{
+	margin-top: 50px;
+}
+.main-card-portfolio{
+	padding-right: 35px !important;
+	padding-left: 0 !important;
+	padding-top: 35px;
+}
+.box-img-port{
+	height: 260px;
+	overflow: hidden;
+}
+.card-footer{
+	margin-top: 25px;
+}
+a:hover .card-title{
+	color: #EA244F
+}
+.more:hover{
+	color: #EA244F	
+}
+.nav-tabs{
+	border: none !important;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+	background: transparent;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 2px solid #EA244F !important
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	color: #EA244F !important;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 2px solid #EA244F !important
+}
+.desc{
+	margin-top: 25px;
+}
+.pad-25{
+	padding-right: 25px !important;
+}
+.border-bottom{
+	border-bottom: 2px solid grey
+}
+.next-prev{
+	padding-top: 50px !important;
+	padding-bottom: 30px !important; 
+}
