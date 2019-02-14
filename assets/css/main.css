@@ -2,7 +2,6 @@
 	padding-left: 125px;
 }
 #jumbotron{
-
 	height:668px;
 	background: url(../img/jumbotron.png);
 	background-repeat: no-repeat;
@@ -78,10 +77,12 @@ a, a:hover{
 	padding-top: 35px;
 }
 .box-img-port{
+	padding: 0 !important;
 	height: 260px;
 	overflow: hidden;
 }
 .card-footer{
+	padding: 0 !important;
 	margin-top: 25px;
 }
 a:hover .card-title{
@@ -129,20 +130,25 @@ a:hover .card-title{
 	list-style: none;
 }
 .main-card-team{
-	padding-right: 50px !important;
-	padding-top: 50px !important;
+	padding-right: 35px !important;
+	padding-top: 35px !important;
 }
 .box-img-team{
 	height: 370px;
 	overflow: hidden;
+	padding: 0 !important
 }
 .card-blog{
 	margin-bottom: 50px
 }
 .box-img-blog{
-	height: 300px;
+	height: 280px;
 	overflow: hidden;
-	background: grey
+	background: grey;
+	padding: 0 !important
+}
+.box-img-blog img{
+	padding: 0 !important
 }
 .box-img-contact{
 	margin-bottom: 25px;
@@ -172,4 +178,61 @@ input:focus{
 	margin-top: 100px;
 	background: white;
 	padding: 25px;
+}
+@media only screen and (max-width: 768px){
+	.navbar-left{
+		display: none;
+	}
+	[class*="font-"] {
+		padding: 15px !important;
+	}
+	.slice{
+		padding: 15px !important
+	}
+	.main-card-portfolio{
+		padding: 15px !important
+	}
+	.box-img-blog{
+		padding: 0 !important;
+		height: 150px;
+	}
+	.box-img-blog img{
+		padding: 0
+	}
+	.main-card-team{
+		padding: 0px !important
+	}
+	.card-team{
+		height: 400px;
+	}
+	.box-img-team{
+		height: 180px;
+	}
+	.card-team{
+		padding: 0 !important
+	}
+	.main-card-portfolio{
+		padding:15px 0 !important
+	}
+	.card-portfolio{
+		padding: 0 !important
+	}
+	.box-img-port{
+		padding: 15px !important;
+	}
+	.box-img-port img{
+		padding: 0 !important
+	}
+	.card-footer{
+		padding: 0 !important
+	}
+	.text-blog{
+		padding: 0 !important
+	}
+	.box-img-blog img{
+		padding: 0 !important
+	}
+	.services{
+		padding: 0 !important
+	}
 }
