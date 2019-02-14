@@ -105,6 +105,7 @@ a:hover .card-title{
 	padding-right: 25px !important;
 }
 .border-bottom{
+	padding-bottom: 50px;
 	border-bottom: 2px solid grey
 }
 .next-prev{
@@ -125,4 +126,12 @@ a:hover .card-title{
 .box-img-team{
 	height: 370px;
 	overflow: hidden;
+}
+.card-blog{
+	margin-bottom: 50px
+}
+.box-img-blog{
+	height: 300px;
+	overflow: hidden;
+	background: grey
 }
