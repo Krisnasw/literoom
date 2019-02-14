@@ -165,3 +165,11 @@ input:focus{
 .question{
 	margin-bottom: 50px;
 }
+.btn-bordered{
+	border: 1px solid #666666 !important;
+}
+.btn-submit{
+	margin-top: 100px;
+	background: white;
+	padding: 25px;
+}
