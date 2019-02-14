@@ -15,6 +15,9 @@ a, a:hover{
 	text-decoration: none;
 	color: black;
 }
+.btn{
+	border-radius: 0 !important
+}
 .navbar-left{
 	position: fixed;
 	left: 0;
@@ -48,8 +51,14 @@ a, a:hover{
 .font-24{
 	font-size: 24px;
 }
+.font-25{
+	font-size: 25px;
+}
 .font-28{
 	font-size: 28px;
+}
+.font-32{
+	font-size: 32px;
 }
 .font-36{
 	font-size: 36px;
@@ -142,4 +151,17 @@ a:hover .card-title{
 }
 .btn-apply{
 	margin-top: 25px;
+}
+input{
+	border: none !important;
+	border-bottom: 2px solid black !important;
+	box-shadow: none !important;
+	border-radius: 0 !important;
+	margin-bottom: 25px;
+}
+input:focus{
+	border-bottom:2px solid #EA244F !important;
+}
+.question{
+	margin-bottom: 50px;
 }
