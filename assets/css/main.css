@@ -140,3 +140,6 @@ a:hover .card-title{
 	height: 360px;
 	overflow: hidden;
 }
+.btn-apply{
+	margin-top: 25px;
+}
