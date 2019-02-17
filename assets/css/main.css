@@ -179,6 +179,13 @@ input:focus{
 	background: white;
 	padding: 25px;
 }
+.btn-submit-sec{
+	margin-top: 100px;
+	background: white;
+	padding: 25px;
+	color: #EA244F;
+	border: 1px solid #EA244F !important;
+}
 .fileContainer {
     overflow: hidden;
     position: relative;
