@@ -208,9 +208,7 @@ input:focus{
 	.navbar-left{
 		display: none;
 	}
-	[class*="font-"] {
-		padding: 15px !important;
-	}
+
 	.slice{
 		padding: 15px !important
 	}
@@ -228,7 +226,7 @@ input:focus{
 		padding: 0px !important
 	}
 	.card-team{
-		height: 400px;
+		height: 300px;
 	}
 	.box-img-team{
 		height: 180px;
@@ -251,13 +249,34 @@ input:focus{
 	.card-footer{
 		padding: 0 !important
 	}
-	.text-blog{
-		padding: 0 !important
-	}
 	.box-img-blog img{
 		padding: 0 !important
 	}
 	.services{
 		padding: 0 !important
+	}
+	.card-footer .font-18{
+		font-size: 14px;
+	}
+	.no-pad-mob{
+		padding: 0 !important
+	}
+	.mt-mob{
+		margin-top: 25px;
+	}
+	.font-sm-14{
+		font-size: 14px
+	}
+	.font-sm-16{
+		font-size: 16px
+	}
+	.font-sm-18{
+		font-size: 18px
+	}
+	.font-sm-21{
+		font-size: 21px;
+	}
+	.font-sm-24{
+		font-size: 24px;
 	}
 }
