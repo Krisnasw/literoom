@@ -210,7 +210,7 @@ input:focus{
 	}
 
 	.slice{
-		padding: 15px !important
+		padding:0 15px !important
 	}
 	.main-card-portfolio{
 		padding: 15px !important
@@ -262,7 +262,7 @@ input:focus{
 		padding: 0 !important
 	}
 	.mt-mob{
-		margin-top: 25px;
+		margin-top: 35px;
 	}
 	.font-sm-14{
 		font-size: 14px
@@ -278,5 +278,23 @@ input:focus{
 	}
 	.font-sm-24{
 		font-size: 24px;
+	}
+	.nav-mob{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		padding:5px 15px;
+		z-index: 99;
+		transition-duration: 0.5s;
+		transition-timing-function: ease-in-out;
+	}
+	.white{
+		background: transparent;
+		color: white !important
+	}
+	.black{
+		background: white;
+		color: black !important
 	}
 }
