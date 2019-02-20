@@ -2,7 +2,7 @@
 	padding-left: 125px;
 }
 #slideshow{
-	height: 668px;
+	height: 100%;
 }
 #slideshow img{
 	width: 100%
@@ -25,12 +25,13 @@ a, a:hover{
 	height: 100%;
 }
 .navbar-left ul{
-	padding:10px 0
+	padding:10px 0;
+	height: 100%;
 }
 .navbar-left ul li{
 	list-style: none;
 	transform: rotate(270deg);
-	padding: 50px 0
+	padding: 45% 0
 }
 .clr-grey{
 	color: #666666;
@@ -49,6 +50,9 @@ a, a:hover{
 }
 .font-21{
 	font-size: 21px;
+}
+.font-22{
+	font-size: 22px;
 }
 .font-24{
 	font-size: 24px;
@@ -78,9 +82,13 @@ a, a:hover{
 	margin-top: 40px;
 }
 .main-card-portfolio{
-	padding-right: 35px !important;
+	padding-right: 20px !important;
 	padding-left: 0 !important;
-	padding-top: 35px;
+	padding-bottom: 35px;
+	padding-top: 10px;
+}
+.card-portfolio{
+	padding-left: 0px
 }
 .box-img-port{
 	padding: 0 !important;
@@ -99,6 +107,14 @@ a:hover .card-title{
 }
 .nav-tabs{
 	border: none !important;
+}
+.nav-tabs li{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right:15px;
+}
+.nav-tabs li a{
+	padding: 0 
 }
 .nav>li>a:focus, .nav>li>a:hover{
 	background: transparent;
@@ -130,17 +146,19 @@ a:hover .card-title{
 }
 .serv-title{
 	padding-top: 15px;
-	padding-bottom: 15px
+	padding-bottom: 15px;
+	font-weight: bold
 }
 .services ul li{
 	list-style: none;
 }
 .main-card-team{
-	padding-right: 35px !important;
+	padding-left: 0;
+	padding-right: 45px !important;
 	padding-top: 35px !important;
 }
 .box-img-team{
-	height: 370px;
+	height: 400px;
 	overflow: hidden;
 	padding: 0 !important
 }
@@ -148,7 +166,6 @@ a:hover .card-title{
 	margin-bottom: 50px
 }
 .box-img-blog{
-	height: 280px;
 	overflow: hidden;
 	background: grey;
 	padding: 0 !important
@@ -181,14 +198,12 @@ input:focus{
 	border: 1px solid #666666 !important;
 }
 .btn-submit{
-	margin-top: 100px;
 	background: white;
-	padding: 25px;
+	padding: 15px;
 }
 .btn-submit-sec{
-	margin-top: 100px;
 	background: white;
-	padding: 25px;
+	padding: 15px;
 	color: #EA244F;
 	border: 1px solid #EA244F !important;
 }
@@ -215,22 +230,40 @@ input:focus{
 	z-index: 99;
 	color: white
 }
+footer{
+	padding-top: 50px !important;
+	padding-bottom: 50px !important;
+}
 @media only screen and (max-width: 768px){
 	.navbar-left{
 		display: none;
 	}
+	.container-fluid{
+		transition-duration: 0.25s;
+		transition-timing-function: ease-in-out;
+	}
+	#first{
+		padding: 0 15px !important
+	}
 	#slideshow{
-		height: 200px
+		height: 494px;
+		background: grey
+	}
+	#slideshow img{
+		width: auto;
+		height: 100%;
+	}
+	.pad-mob{
+		padding: 0 15px !important
 	}
 	.slice{
-		padding:0 15px !important
+		padding:0 30px !important
 	}
 	.main-card-portfolio{
 		padding: 15px !important
 	}
 	.box-img-blog{
 		padding: 0 !important;
-		height: 150px;
 	}
 	.box-img-blog img{
 		padding: 0
@@ -333,9 +366,19 @@ input:focus{
 		color: white;
 	}
 	.menu-in{
-		transform: translateY(100%);
+		transform: translateY(-100%);
 	}
 	.menu-out{
 		transform: translateY(0);
+	}
+	.cont-down{
+		transform: translateY(100%);
+	}
+	.cont-up{
+		transform: translateY(0);
+	}
+	.border-bottom{
+		padding-bottom: 0px;
+		border-bottom: none;
 	}
 }
