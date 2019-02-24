@@ -234,6 +234,8 @@ input:focus{
 	color: white
 }
 footer{
+	margin-top: 100px;
+	margin-bottom: 30px;
 	padding-top: 50px !important;
 	padding-bottom: 50px !important;
 }
