@@ -290,7 +290,7 @@ input:focus{
 	top: 0;
 }
 .number-image{
-	transform: translateY(-45px);
+	transform: translateY(-100px);
 	z-index: 99;
 	color: white;
 	padding-right: 30px;
@@ -309,7 +309,7 @@ footer{
 }
 .footer-mob{
 	letter-spacing: 0.5px;
-	margin-top: 18vh !important
+	margin-top: 3vh !important
 }
 .btn4 {
 	width: 40px;
@@ -408,6 +408,10 @@ footer{
 	.mt-mob-75{
 		margin-top: 75px
 	}
+	.see-more{
+		margin-top: 0px;
+		margin-bottom: 75px;
+	}
 	.foot-card-blog{
 		padding-left:0px !important;
 		margin-top: 29px;
@@ -429,7 +433,7 @@ footer{
 		padding: 0 15px !important
 	}
 	#slideshow{
-		height:675px;
+		height:645px;
 		background: grey
 	}
 	#slideshow img{
@@ -589,7 +593,7 @@ footer{
 	}
 	.black{
 		background: white;
-		color: black !important
+		color:#E7344C !important
 	}
 	.menu{
 		position: fixed;
