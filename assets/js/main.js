@@ -10,7 +10,7 @@ var galleryTop = new Swiper('#slideshow', {
 		type:'fraction',
 		renderFraction: function (currentClass, totalClass) {
 			return '<span class="' + currentClass + '"></span>' +
-			'<font class="strip"> ----- </font> ' +
+			'<font class="strip"> &nbsp; ------- &nbsp;</font> ' +
 			'<span class="' + totalClass + '"></span>';
 		}
 	},
