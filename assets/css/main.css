@@ -397,7 +397,7 @@ footer{
 		transform: translateY(60px);
 	}
 	.number-image{
-		transform: translateY(-125px);
+		transform: translateY(-45px);
 	}
 	.img-blog-detail{
 		height: 195px;
@@ -436,7 +436,7 @@ footer{
 		padding: 0 15px !important
 	}
 	#slideshow{
-		height:645px;
+		height:565px;
 		background: grey
 	}
 	#slideshow img{
